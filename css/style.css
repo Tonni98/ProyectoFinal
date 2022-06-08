@@ -34,8 +34,8 @@ header{
 .form-control {
     padding: .80rem .75rem !important;
     color: #ffffff !important;
-    background-color: #fcc302 !important;
-    border: 1px solid #fcc302 !important;
+    background-color: #43a243 !important;
+    border: 1px solid #43a243!important;
     border-radius: 0px !important;
 }
 .form-control::placeholder{
@@ -58,7 +58,7 @@ Banner Section Css
 *********************************/
 .banner{
     width: 100%;
-    background-color: #fcc302;
+    background-color: #43a243;
     padding: 100px 0px;
 }
 .banner .banner-detail h1{
