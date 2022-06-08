@@ -35,7 +35,7 @@ header{
     padding: .80rem .75rem !important;
     color: #ffffff !important;
     background-color: #43a243 !important;
-    border: 1px solid #43a243!important;
+    border: 1px solid #43a243 !important;
     border-radius: 0px !important;
 }
 .form-control::placeholder{
@@ -99,8 +99,8 @@ service-1 Section Css
     padding: 20px 0px;
 }
 .service-1 .btn-danger{
-    background-color:#fcc302 !important;
-    border-color: #fcc302 !important;
+    background-color:#43a243 !important;
+    border-color: #43a243 !important;
 }
 .service-1 .video-img{
     position: relative;
@@ -136,11 +136,11 @@ service-1 Section Css
 }
 
 /*******************************
-service-2 Section Css
+services Section Css
 *********************************/
 .service-2{
     width: 100%;
-    background: #fcc302;
+    background: #43a243;
     text-align: center;
     padding-bottom: 70px;
 }
@@ -193,8 +193,8 @@ service-3 Section Css
     padding: 20px 0px;
 }
 .service-3 .btn-danger{
-    background-color:#fcc302 !important;
-    border-color: #fcc302 !important;
+    background-color:#43a243 !important;
+    border-color: #43a243!important;
 }
 .service-3 .video-img{
     position: relative;
@@ -229,11 +229,11 @@ service-3 Section Css
     top: 40%;
 }
 /*******************************
-store Section Css
+Store Section Css
 *********************************/
 .store{
     width: 100%;
-    background: #fcc302;
+    background: #43a243;
     text-align: center;
     padding-bottom: 70px;
 }
@@ -266,144 +266,6 @@ store Section Css
     border-color: #00bec9 !important;
     border-radius: 50px;
     padding: 0px 20px 5px 20px !important;
-}
-/*******************************
-team Section Css
-*********************************/
-.team{
-    width: 100%;
-    text-align: center;
-    padding-bottom: 70px;
-}
-.team h1{
-    font-size: 50px;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    padding: 70px 0px 0px 0px;
-}
-.team p{
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    padding: 20px 0px;
-}
-.team .details{
-    padding: 0px 334px;
-}
-.team .service{
-    padding-top:40px;
-}
-.team .service h2{
-    font-size: 35px;
-    font-weight: 600;
-    padding: 35px 0px 5px 0px;
-    color: rgb(0, 0, 0) !important;
-}
-.team .service p{
-    font-size: 20px;
-    font-weight: 400;
-    padding: 0 40px;
-    text-transform: uppercase;
-}
-.team .service ul{
-    width: 100%;
-    padding: 5px;
-}
-.team ul li{
-    list-style: none;
-    display: inline-block;
-    padding-left: 10px;
-}
-.team ul li a i{
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    text-align: center;
-    background-color: #fcc302;
-    color: white;
-    border-radius: 100%;
-}
-.team ul li a i:hover{
-    color: #00bec9;
-}
-/*******************************
-count-down Section Css
-*********************************/
-.count-down{
-    width: 100%;
-    background-image: url('../imgs/counter_banner.png');
-    height: 80vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.count-down .shadow{
-    position: absolute;
-    top: 0;
-    right: 0px;
-    bottom: 0;
-    left:0;
-    background-color: rgb(252, 195, 2, 0.7);
-}
-.shadow .count{
-    text-align: center;
-    margin-top: 210px;
-}
-.shadow .count p{
-    font-size: 37px;
-    color: rgb(255, 255, 255);
-    padding: 20px 0px 0px 0px;
-}
-.shadow .count h4{
-    font-size: 27px;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-}
-/*******************************
-blog Section Css
-*********************************/
-.blog{
-    width: 100%;
-    padding: 80px 0px;
-
-}
-.blog h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 50px;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    padding: 30px 0px 0px 0px;
-    text-align: center;
-}
-.blog p{
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    padding: 20px 0px;
-    text-align: center;
-}
-.blog .post{
-    width: 100%;
-}
-.blog .card{
-    width: 25rem!important;
-    margin: 0px !important;
-}
-.blog .card:hover{
-    border: none;
-    box-shadow: 1px 3px 14px -7.25px;
-}
-.blog .card small{
-    color: #00bec9;
-    text-transform: uppercase;
-}
-.blog .card p{
-    text-align: left !important;
-    font-size: 22px!important;
-}
-.blog .post .card-title{
-    font-size: 36px !important;
-}
-.blog .card a{
-    color:#00bec9;
 }
 /*******************************
 footer Section Css
@@ -607,7 +469,7 @@ body{
     min-width: 40px;
     height: 40px;
     color: #fff;
-    background:#18b7;
+    background:rgba(60, 57, 117, 0.467);
     display: flex;
     justify-content: center;
     align-items: center;
